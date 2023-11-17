@@ -58,7 +58,7 @@ int main(void)
 	//Inicializalas
 	Init();
 
-	//A P01 gomb lenyomasaig csak meg kell jeleniteni a kezdokepernyot
+	//A PB1 gomb lenyomasaig csak meg kell jeleniteni a kezdokepernyot
 	while(!game_started)
 	{
 		LCD_display();
