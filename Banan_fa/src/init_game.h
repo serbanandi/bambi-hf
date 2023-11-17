@@ -10,7 +10,7 @@
 
 volatile bool game_started;
 volatile uint8_t level;
-volatile uint16_t result;
+volatile uint16_t score;
 volatile uint8_t banana_x;
 volatile uint16_t banana_y;
 volatile uint8_t basket;

@@ -9,9 +9,7 @@
 #define SRC_TIMER_H_
 
 volatile uint32_t msTicks;
-void Delay(uint32_t dlyTicks);
 void SysTick_Handler(void);
-void Delay(uint32_t dlyTicks);
-void moveBanana_IRQHandler(void);
+void Delay_ms(uint32_t dlyTicks);
 
 #endif /* SRC_TIMER_H_ */
